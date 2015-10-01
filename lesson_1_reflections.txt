@@ -1,0 +1,27 @@
+Diffing two files:
+	diff -u file1 file 2 // this allows you to quickly see which lines are different
+	
+some quick commands
+cd //change directory
+mkdir // make a new directory
+
+Having version control is important, allows you to back track to a functional code
+
+git diff oldfile newfile // compares two versions of a file, operates on commits, this can also show where new code was added to a new file from the old file
+
+rules for commits
+	Make commits for logical changes, such as fixing bugs, changing  something, or adding a feature
+	
+git repository
+	tracks multiple files as long as they are related to the project
+	
+git log --stat //gives statistics about which files have been changed in each commit
+green plus signs //addition red minus signs //removals
+proportional amount of signs based on number of changes
+git diff CommitID CommitID //compares files
+
+git clone // creates a clone of an entire repository on your computer
+
+git log // shows all all commit history
+
+git checkout commitID //resets files to a previous state, allows bug testing
