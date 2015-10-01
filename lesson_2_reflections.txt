@@ -1,0 +1,10 @@
+ git init // creates an empty repository, under the hidden file name .git
+ 
+ git status // shows the status of the repository and what files are currently in it
+ 
+ git add filename // this allows you to add a file to a commit staging area
+ // the commit staging area can hold multiple files for them to all be part of one commit
+ 
+ git reset filename // removes a file from the staging area
+ 
+ 
