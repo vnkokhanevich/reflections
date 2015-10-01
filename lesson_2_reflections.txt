@@ -7,4 +7,28 @@
  
  git reset filename // removes a file from the staging area
  
+ git commit -m "Commit Message" // this allows whats in the staging area to be commited
+ 
+ git checkout master // goes straight to most recent commit
+ 
+ git diff (with no arguments) // shows the differences between staging area and directory file
+ git diff --staged //difference in files between most recent commit and staging area
+ 
+ git reset --hard // discards any changes in the staging area or working area
+ 
+ working directory >git add> staging area >git commit> commit
+ 
+ git branch (no arguments) //shows all branches
+ git branch branchname //makes a new branch
+ git checkout branchname //changes current branch to branchname
+ 
+ git checkout -b new_branch_name // lets you checkout a commit and make it a new separate branch
+ 
+ git pull (local branch) (remote master) // merges remote branch/master to local branch
+ 
+ git push (local branch) (remote master) // updates your changes to remote master 
+ 
+ git remote add origin "https address of your repository on github" 
+ //adds files to your remote repository the first time
+ 
  
